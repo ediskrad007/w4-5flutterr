@@ -1,0 +1,14 @@
+import 'package:flutter/material.dart';
+void main(){
+  runApp(MaterialApp(
+    home: Scaffold(
+      body: Center(
+        child: Text(
+          'Hello my name is Ronan the best' , style: TextStyle(
+            color: Colors.orange, fontSize:50  
+          ),
+        ),
+      ),
+    ),
+  ));
+}
